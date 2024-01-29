@@ -1,0 +1,68 @@
+/*----MEDIA QUERY----*/
+@media screen and (max-width:950px){
+    .gridGaleria{
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 250px;
+    }
+}
+
+@media screen and (max-width:600px){
+    header{
+        flex-direction: column;
+        img{
+            margin-left: 0;
+        }
+    }
+    .hero{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .gridGaleria{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 250px;
+    }
+    .imgLeon{
+        img{
+            width: 90%;
+            margin: 5px;
+        }
+    } 
+
+    .imgChita{
+        img{
+            width: 90%;
+            margin: 5px;
+        }
+    }
+
+    .imgPuma{
+        img{
+            width: 90%;
+            height: 90%;
+            margin: 5px;
+        }
+    }
+
+    .imgTigre{
+        img{
+            width: 90%;
+            margin: 5px;
+        }
+    }
+}
+
+@media screen and (max-width:350px){
+    header{
+        nav{
+            ul{
+                flex-direction: column;
+                text-align: center;
+                li{
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}

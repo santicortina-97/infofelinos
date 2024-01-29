@@ -1,0 +1,32 @@
+/*----HEADER----*/
+
+header{
+    border-bottom: 2px solid black;
+    background-color: nth($colores, 2);
+    nav{
+        img{
+        width: 200px;  
+        height: 80px;
+        margin: 0px 40px 0px 50px;
+        }
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    padding: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.boton{
+    border: 1px solid black;
+    transition: 0.5s;
+    &:hover{
+        background-color: #818355;
+    }
+}

@@ -1,0 +1,23 @@
+//*LISTAS
+$colores:
+black,
+#b5b88a,
+#588b8b;
+
+//*EXTENDS
+
+%text{
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+
+//*MIXINS
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
